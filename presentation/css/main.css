@@ -2,5 +2,11 @@
 	background-color: green;
 }
 ul {
+	margin: 1.12em 0;
+	margin-left: 40px;
+	page-break-before: avoid ;
+}
+li {
 	list-style: disc;
+	display: list-item;
 }
