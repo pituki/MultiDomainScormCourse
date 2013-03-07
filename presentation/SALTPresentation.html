@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
- <!--   <meta name="viewport" content="width=1024" />  -->
+    <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Augmenting a SCORM Course to Communicate Across Domains</title>
     
@@ -32,19 +32,19 @@
 	  </div>
 
     <div id="s2" class="step slide" data-x="-40000" data-y="15000" data-scale="50">
-      <h2>Presentation Objectives</h2>
-      <p>Introductions</p>
-      <p>Briefly Describe our Problem</p>
-      <ul>
-          <li>Problem and Constraints</li>
-          <li>Working examples</li>
-      </ul>
-      <p>Present our Solution</p>
-      <ul>
-          <li>Flexibility</li>
-          <li>Accessibility</li>
-      </ul>
-      <p>Feedback and Questions</p>
+	    <h2>Presentation Objectives</h2>
+	    <p>Introductions</p>
+	    <p>Briefly Describe our Problem</p>
+	    <ul>
+	    	<li>Problem and Constraints</li>
+	      <li>Working examples</li>
+	    </ul>
+	    <p>Present our Solution</p>
+	    <ul>
+	      <li>Flexibility</li>
+	      <li>Accessibility</li>
+	    </ul>
+	    <p>Feedback and Questions</p>
     </div>
 
 
@@ -52,13 +52,13 @@
       <h2>Who We Are...</h2>
       <H3>Alex Van</H3>
       <ul>
-          <li>Interactivity Specialist</li>
-          <li>Contractor to the US Department of State</li>
+        <li>Interactivity Specialist</li>
+        <li>Contractor to the US Department of State</li>
       </ul>
       <h3>Gregory Fletcher</h3>
       <ul>
-          <li>Computer Programmer</li>
-          <li>Contractor to the US Department of State</li>
+        <li>Computer Programmer</li>
+        <li>Contractor to the US Department of State</li>
       </ul>
       <h3>Audience?</h3>
     </div>
@@ -79,15 +79,15 @@
     </div>
 
 
-    <div id="burger" class="step" data-x="80000" data-y="60000" data-scale="100" data-rotate-y="90">
+    <div id="burger" class="step" data-x="140000" data-y="15000" data-scale="100" data-rotate-y="90">
       <div valign="center" align="center">
-        <h2><font align="center">Solution!</font></h2>
+        <h2><font align="center">Our Proposed Solution!</font></h2>
         <img src="img/burgerstack.png"></div>
     </div>
 
 
     <div id="s5" class="step slide" data-x="140000" data-y="60000" data-scale="50" data-rotate-x="0" data-rotate-y="0">
-      <h2>Solution</h2>
+      <h2>Our Proposed Solution</h2>
       <p>Layered Approach (Top-Down Hamburger)</p>
       <ul>
               <li>Top Bun (LMS) <img src="img/topbun.png" width="150"></li>
@@ -107,12 +107,12 @@
         <li>Custom JavaScript Library</li>
         <li>jQuery and PostMessage.JS</li>
         <li>SCORM-based JSON objects</li>
-        <li>iFrame Communication</li>
+        <li>iFrame Communication</li>\
       </ul>
     </div> 
 
 
-    <div id="s7"   class="step slide" data-x="140000" data-y="30000" data-scale="50" data-rotate-x="90" data-rotate-y="180">
+    <div id="s7" class="step slide" data-x="140000" data-y="30000" data-scale="50" data-rotate-x="90" data-rotate-y="180">
       <h2>Solution</h2>
       <p>LMS (Top Bun)</p>
       <q>LMS implements SCORM API</q>
@@ -121,10 +121,38 @@
     </div> 
 
 
+    <div id="s8"  class="step slide" >
+      <h2>Solution</h2>
+      <div class='col1'>
+        <h3>Mayo (LMS Client API)</h3>
+          <p>Stub Course Files</p>
+            <p>2 HTML pages</p>
+            <p>iFrame</p>
+            <p>Message</p>
+      <p>Load CMI Data</p>
+      <p>Convert CMI into JSON</p>
+      </div>
+      
+      <div class='col2'>
+        <h2>Sample JSON:</h2>
+        <pre>
+          {
+            CMI:{
+              core:{
+              _children: “”,
+              student_name: “John Smith”, 
+              ...
+              }
+            }
+          }
+        </pre>
+      </div>
+    </div>
 
 
 
-    <div id="slide1" class="step slide" data-x="2000" data-y="15000" data-z="1" data-scale="1">
+
+<!--    <div id="slide1" class="step slide" data-x="2000" data-y="15000" data-z="1" data-scale="1">
         <q>Slide1</q>
     </div>
 
@@ -136,7 +164,7 @@
     	<p><img src="img/meat.png" width="200" height="100">Meat</p>
     	<p><img src="img/bottombun.png" width="200" height="100">Bottom Bun</p>
 
-    </div>
+    </div>  -->
 
     
 
@@ -157,32 +185,7 @@
 
     
 
-    <div id="s8"  class="step slide" >
-      <h2>Solution</h2>
-      <div class='col1'>
-        <h3>Mayo (LMS Client API)</h3>
-          <p>Stub Course Files</p>
-            <p>2 HTML pages</p>
-            <p>iFrame</p>
-            <p>Message</p>
-      <p>Load CMI Data</p>
-      <p>Convert CMI into JSON</p>
-      </div>
-      <div class='col2'>
-        <h2>Sample JSON:</h2>
-        <pre>
-          {
-            CMI:{
-              core:{
-              _children: “”,
-              student_name: “John Smith”, 
-              ...
-              }
-            }
-          }
-        </pre>
-      </div>
-    </div>
+
 
     <div id="s9"  class="step slide" >
       <h2>Solution</h2>
