@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+ <!--   <meta name="viewport" content="width=1024" />  -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Augmenting a SCORM Course to Communicate Across Domains</title>
+    
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+	 <div id="bored" class="step slide" data-x="-100000" data-y="15000" data-scale="50">
+		<h3>S.A.L.T.: New Learning Technologies Conference 2013</h3>
+		<hr>
+		<br>
+		<q>Augmenting a SCORM Course to Communicate Across Domains</q><br><br><br><br>
+		<p>Alex Villaneda<br>Gregory Fletcher</p>
+
+	</div>
+
+    <div id="burger" class="step" data-x="2000" data-y="15000" data-scale="100">
+    	<div valign="center" align="center"><img src="../Burger/topbun.png"></div>
+    </div>
+
+<!--    <div class="step slide" data-x="2000" data-y="13200"> -->
+    <div id="slide1" class="step slide" data-x="2000" data-y="15000" data-z="1" data-scale="1">
+        <q>Slide1</q>
+    </div>
+
+    <div class="step" data-x="0" data-y="-500" data-z="-400" data-rotate="120" data-rotate-y="60">
+    	<p><img src="../Burger/topbun.png" width="200" height="100">Top Bun</p> 
+    	<p><img src="../Burger/mustard.png" width="200" height="100">Mustard</p>
+    	<p><img src="../Burger/tomatos.png" width="200" height="100">Tomatoes</p>
+    	<p><img src="../Burger/lettuce.png" width="200" height="100">Lettuce</p>
+    	<p><img src="../Burger/meat.png" width="200" height="100">Meat</p>
+    	<p><img src="../Burger/bottombun.png" width="200" height="100">Bottom Bun</p>
+
+    </div>
+
+    
+    <div class="step slide" data-x="0" data-y="1000" data-z="-400" data-rotate="90">
+        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+    </div>
+
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="1000">
+    </div> 
+
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+
+
+
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
