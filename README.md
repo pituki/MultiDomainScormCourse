@@ -8,7 +8,7 @@ Kaseman International
 
 Gregory D. Fletcher II, Programmer  
 [@havokjinx](http://twitter.com/havokjinx)  	
-Alutiiq Native Corporation
+Alutiiq Native Corporation  
 8619 Westwood Center Dr, Vienna, VA 
 22182
 
