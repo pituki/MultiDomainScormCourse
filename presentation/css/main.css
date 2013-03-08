@@ -10,6 +10,21 @@ li {
 	list-style: disc;
 	display: list-item;
 }
+.col1 {
+	float: left;
+	width: 50%;
+}
+.col2 {
+	margin-left: 50%
+	max-width:800px;
+}
+.clear {
+	clear: both;
+}
+h2 {
+	border-bottom: 1px solid black;
+	margin-bottom: .9em;
+}
 
 .footer{
 	font-size: 18px;
