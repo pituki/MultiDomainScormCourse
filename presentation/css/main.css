@@ -25,3 +25,8 @@ h2 {
 	border-bottom: 1px solid black;
 	margin-bottom: .9em;
 }
+
+.footer{
+	font-size: 18px;
+	text-align: right;
+}
