@@ -10,6 +10,8 @@ Alutiiq Native Corporation
 8619 Westwood Center Dr, Vienna, VA 
 22182
 
+[Presentation Slides](http://pituki.github.com/MultiDomainScormCourse/presentation/index.html)
+
 ##Abstract
 This presentation describes our solution to providing both open and controlled online training content for one course hosted through an open Learning Management System. This solution also applies to anyone needing an LMS linking to content hosted in multiple domains. SCORM functionality had to be maintained even though the controlled content could be accessed only when logged into the secure domain. Hosting domains had to report all interactions to the same LMS. 
 
