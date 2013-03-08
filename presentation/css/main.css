@@ -10,3 +10,8 @@ li {
 	list-style: disc;
 	display: list-item;
 }
+
+.footer{
+	font-size: 18px;
+	text-align: right;
+}
