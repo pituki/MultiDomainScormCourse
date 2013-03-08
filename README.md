@@ -2,10 +2,12 @@ Augmenting a SCORM Course to Communicate Across Domains
 ======================
 
 Alex Villaneda-van Vloten, Programmer	
+[@pituki](http://twitter.com/pituki)  
 Kaseman International				
 1600 Tysons Blvd  McLean, VA 22102
 
-Gregory D. Fletcher II, Programmer 	
+Gregory D. Fletcher II, Programmer 
+[@havokjinx](http://twitter.com/havokjinx)  	
 Alutiiq Native Corporation
 8619 Westwood Center Dr, Vienna, VA 
 22182
