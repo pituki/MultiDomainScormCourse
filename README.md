@@ -1,16 +1,19 @@
 Augmenting a SCORM Course to Communicate Across Domains
 ======================
 
-Alex Villaneda-van Vloten, Programmer	
+Alex Villaneda-van Vloten, Programmer	 
+[@pituki](http://twitter.com/pituki)  
 Kaseman International				
 1600 Tysons Blvd  McLean, VA 22102
 
-Gregory D. Fletcher II, Programmer 	
-Alutiiq Native Corporation
+Gregory D. Fletcher II, Programmer  
+[@havokjinx](http://twitter.com/havokjinx)  	
+Alutiiq Native Corporation  
 8619 Westwood Center Dr, Vienna, VA 
 22182
 
-[Presentation Slides](http://pituki.github.com/MultiDomainScormCourse/presentation/index.html)
+[Presentation Slides](http://goo.gl/XA0B6)
+
 
 ##Abstract
 This presentation describes our solution to providing both open and controlled online training content for one course hosted through an open Learning Management System. This solution also applies to anyone needing an LMS linking to content hosted in multiple domains. SCORM functionality had to be maintained even though the controlled content could be accessed only when logged into the secure domain. Hosting domains had to report all interactions to the same LMS. 

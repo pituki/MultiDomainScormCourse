@@ -28,7 +28,7 @@
   		<h3>S.A.L.T.: New Learning Technologies Conference 2013</h3>
   		<hr>
   		<br>
-  		<q>Augmenting a SCORM Course to Communicate Across Domains</q><br><br><br><br>
+  		<q  align="center">Augmenting a SCORM Course to Communicate Across Domains</q><br><br><br><br>
   		<p>Alex Villaneda<br>Gregory Fletcher</p>
   		<hr>
   		<p class="footer">Version 1.0</p>
@@ -36,18 +36,18 @@
 
     <div id="s2" class="step slide" data-x="-40000" data-y="15000" data-scale="50">
 	    <h2>Presentation Objectives</h2>
-	    <p>Introductions</p>
-	    <p>Briefly Describe our Problem</p>
+	    <h3>Introductions</h3>
+	    <h3>Briefly Describe our Problem</h3>
 	    <ul>
 	    	<li>Problem and Constraints</li>
 	      <li>Working examples</li>
 	    </ul>
-	    <p>Present our Solution</p>
+	    <h3>Present our Solution</h3>
 	    <ul>
 	      <li>Flexibility</li>
 	      <li>Accessibility</li>
 	    </ul>
-	    <p>Feedback and Questions</p>
+	    <h3>Feedback and Questions</h3>
     </div>
 
 
@@ -56,21 +56,21 @@
       <div class="content">
         <div class="col1">
           <H3>Alex Van</H3>
-          <ul>
-            <li>Interactivity Specialist</li>
-            <li>Contractor to the US Department of State</li>
-          </ul>
         </div>
         <div class="col2">
           <h3>Gregory Fletcher</h3>
-          <ul>
-            <li>Computer Programmer</li>
-            <li>Contractor to the US Department of State</li>
-          </ul>
         </div>
         <div class="clear"></div>
       </div>
-      <h3>Audience?</h3>
+      <ul>
+        <li>Computer Programmers</li>
+        <li>Contractors to the US Department of State</li>
+        <li>e-learning application developers</li>
+        <li>Mobile Application Developers</li>
+        <li>SharePoint Developers</li>
+        <li>Other ...</li>
+      </ul>
+      <h3 class='centered'>Audience?</h3>
     </div>
 
 
@@ -92,7 +92,7 @@
     <div id="burger" class="step" data-x="140000" data-y="15000" data-scale="100" data-rotate-y="-90">
       <div valign="center" align="center">
         <h2><font align="center">Our Proposed Solution!</font></h2>
-        <img src="img/burgerstack.png"></div>
+        <img src="img/BurgerStack.png"></div>
     </div>
 
 
@@ -125,9 +125,16 @@
     <div id="s7" class="step slide" data-x="140000" data-y="150000" data-scale="50" data-rotate-x="90" data-rotate-y="180">
       <h2>Our Solution</h2>
       <p>LMS (Top Bun)</p>
-      <p>LMS implements SCORM API</p>
+      <img src="img/topbun.png" align="right">
+      <ul>
+        <li>LMS implements SCORM API</li>
+      </ul>
+      <br /><br><br>
       <p>LMS SCORM API (Lettuce)</p>
-      <p>Focused on SCORM API v1.2</p>
+      <img src="img/lettuce.png" align="right">
+      <ul>
+        <li>Focused on SCORM API v1.2</li>
+      </ul>
     </div> 
 
 
@@ -136,6 +143,7 @@
       <div class="content">
         <div class="col1">
         <h3>Mayo (LMS Client API)</h3>
+        <img src="img/mayo.png" align="right">
           <ul>
             <li>Stub Course Files</li>
             <ul><li>2 HTML pages</li>
@@ -148,15 +156,15 @@
         <div class='col2'>
           <h3>Sample JSON:</h3>
           <pre>
-            {
-              CMI:{
-                core:{
-                _children: “”,
-                student_name: “John Smith”, 
-                ...
-                }
-              }
-            }
+{
+  CMI:{
+    core:{
+    _children: “”,
+    student_name: “John Smith”, 
+    ...
+    }
+  }
+}
           </pre>
         </div>
       </div>
@@ -164,27 +172,11 @@
     <!-- </div> -->
 
 
-
-
-<!--    <div id="slide1" class="step slide" data-x="2000" data-y="15000" data-z="1" data-scale="1">
-        <q>Slide1</q>
-    </div>
-
-    <div class="step" data-x="0" data-y="-500" data-z="-400" data-rotate="120" data-rotate-y="60">
-    	<p><img src="img/topbun.png" width="200" height="100">Top Bun</p> 
-    	<p><img src="img/mustard.png" width="200" height="100">Mustard</p>
-    	<p><img src="img/tomatos.png" width="200" height="100">Tomatoes</p>
-    	<p><img src="img/lettuce.png" width="200" height="100">Lettuce</p>
-    	<p><img src="img/meat.png" width="200" height="100">Meat</p>
-    	<p><img src="img/bottombun.png" width="200" height="100">Bottom Bun</p>
-
-    </div>  -->
-
-
-
     <div id="s9"  class="step slide" data-x="200000" data-y="60000" data-scale="50">
       <h2>Our Solution</h2>
       <h3>Communication Channel (Meat)</h3>
+
+      <img src="img/meat.png" align="right">
       <p>Between LMS Client API and MOCK API</p>
 			<p>PostMessage.js JQuery Plug-in</p>
       <ul>
@@ -197,18 +189,25 @@
     <div id="s10" class="step slide" data-x="200000" data-y="105000" data-scale="50">
       <h2>Our Solution</h2>
       <h3>MOCK API (Mustard)</h3>
+      <img src="img/mustard.png" align="right">
       <ul>
         <li>Replica of LMS SCORM API</li>
         <li>Receives CMI data from original API through JSON</li>
         <li>Sends ‘Set’ message data back as JSON objects, </li>similar <li>to TIN Can Approach</li>
       </ul>
-      img >>>>>>>>>>>
     </div> 
 
+
+    <div id="s10.5" class="step slide" data-x="200000" data-y="150000" data-scale="50"> 
+      <h2>Our Solution</h2>
+      <p align="center"><img src="img/timeline.png"></p>
+    </div>
+
     
-    <div id="s11"  class="step slide" data-x="200000" data-y="145000" data-scale="50">
+    <div id="s11"  class="step slide" data-x="200000" data-y="195000" data-scale="50">
       <h2>Our Solution</h2>
       <h3>Course/Module Content (Bottom Bun)</h3>
+      <img src="img/bottombun.png" align="right">
       <ul>
         <li>Any Accessible Content Storage Area
           <ul>
@@ -220,22 +219,21 @@
       </ul>
     </div> 
 
-<<<<<<< HEAD
     <div id="s12" class="step slide" data-x="260000" data-y="15000" data-scale="50" data-rotate="90">
-=======
-    <div id="s12" class="step slide" data-x="200000" data-y="145000" data-scale="50" data-rotate="90">
->>>>>>> 67dadbf640d9da46e9e14cbb7e01cc5c55c16fe1
-      <h2>Feedback and Questions</h2>
-      <p>Utilizing cross-site scripting for IE7 and cross-document messaging for newer browsers, we created a solution. </p>
-      <h3>Hungry Yet? (Questions?)</h3>
+      <h2>Feedback and Questions</h2><br><br>
+      <p align="center">Utilizing cross-site scripting for IE7 and cross-document messaging for newer browsers, we created a solution. </p><br><br>
+      <h3 align="center">Hungry Yet? (Questions?)<br><br><br><img src="img/BurgerStack.png" width="200"></h3>
       <p>
     </div>
 
 
     <div id="s13" class="step slide"  data-x="260000" data-y="75000" data-scale="50" data-rotate="90">
-    	<p>Contact Info</p><br/>
+    	<h2>Contact Info</h2>
     	<p>Alex Villaneda-van Vloten<br />Pitukia@gmail.com<br />Twitter:  @Pitukia</p><br><br>
-    	<p>Gregory Fletcher II<br />HavokJinx@gmail.com<br />Twitter:  @HavokJinx</p>
+    	<p>Gregory Fletcher II<br />HavokJinx@gmail.com<br />Twitter:  @HavokJinx</p><br><br>  	
+			<p>Source Code: http://goo.gl/OH9eU</p>   
+      <p>Presentation: http://goo.gl/XA0B6</p>
+      <p>Paper: http://goo.gl/wQGlg</p> 
     </div>
 
     <!-- extra
